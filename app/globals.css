@@ -31,3 +31,26 @@ body {
     text-wrap: balance;
   }
 }
+/* styles/globals.css */
+@keyframes scrollEffect {
+  0% {
+    opacity: 0;
+    transform: translateY(10%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+/*  100% {
+    opacity: 0;
+    transform: translateY(-10%);
+  }*/
+}
+
+.scrollEffect {
+  animation: scrollEffect 1s ease-out;
+}
+
+/*::-webkit-scrollbar {*/
+/*  display: none; !* Убирает полосу прокрутки в Webkit-браузерах *!*/
+/*}*/
